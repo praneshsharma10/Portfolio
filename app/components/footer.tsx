@@ -7,7 +7,7 @@ import { DiscordIcon } from "./icons/discord-icon"
 
 export function Footer() {
   return (
-    <footer className="pt-12 mt-auto">
+    <footer className="w-full py-12">
       <div className="flex justify-center space-x-6">
         <SocialIcon
           href="https://github.com"
@@ -45,9 +45,6 @@ export function Footer() {
           icon={<DiscordIcon className="w-6 h-6" />}
         />
       </div>
-      {/* <div className="text-center mt-6 text-gray-400">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
-      </div> */}
     </footer>
   )
 }

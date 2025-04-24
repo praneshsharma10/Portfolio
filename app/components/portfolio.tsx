@@ -1,16 +1,15 @@
 "use client"
 
 import { Header } from "./Header"
-// import { ProjectGrid } from "./project-grid"
 import { Footer } from "./footer"
-// import { projects } from "../../data/project"
+import { MyProjects } from "./MyProjects";
 
 export function Portfolio() {
   return (
-    <div className="w-full max-w-6xl mx-auto p-8 flex flex-col justify-between min-h-screen">
-      <div className="flex-1 flex flex-col items-center">
+    <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex flex-col justify-between min-h-screen">
+      <div className="flex-1 flex flex-col">
         <Header />
-        {/* <ProjectGrid projects={projects} /> */}
+        <MyProjects/>
       </div>
       <Footer />
     </div>
