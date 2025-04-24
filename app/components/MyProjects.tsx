@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink} from "lucide-react"
 import { projects } from "@/data/project"
 import { GithubIcon } from "./icons/github-icon"
 import Image from "next/image"
