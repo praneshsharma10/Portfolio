@@ -10,28 +10,28 @@ export function Footer() {
     <footer className="w-full py-12">
       <div className="flex justify-center space-x-6">
         <SocialIcon
-          href="https://github.com"
+          href="https://github.com/praneshsharma10"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
           icon={<GithubIcon className="w-6 h-6" />}
         />
         <SocialIcon
-          href="https://x.com"
+          href="https://x.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="X (formerly Twitter)"
           icon={<XIcon className="w-6 h-6" />}
         />
         <SocialIcon
-          href="https://instagram.com"
+          href="https://instagram.com/praneshsharma10"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
           icon={<InstagramIcon className="w-6 h-6" />}
         />
         <SocialIcon
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/pranesh-sharma-30122a24b/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
